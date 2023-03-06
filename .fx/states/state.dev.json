@@ -1,0 +1,39 @@
+{
+    "solution": {
+        "provisionSucceeded": true,
+        "teamsAppTenantId": "1da33906-b4a0-47ab-b6aa-6a161752c830",
+        "subscriptionId": "3a2181ef-c7ec-46d5-bd07-f073d7c10645",
+        "subscriptionName": "Free Trial",
+        "tenantId": "9f3a3a52-5cf5-44f6-b464-43bee41855d8",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "MySSOTab-dev-rg",
+        "location": "East US",
+        "resourceNameSuffix": "423c4c"
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "1da33906-b4a0-47ab-b6aa-6a161752c830",
+        "teamsAppId": "d4773326-19ae-4a52-8321-28a1d1b1e4fc"
+    },
+    "fx-resource-frontend-hosting": {
+        "indexPath": "/index.html#",
+        "domain": "myssotab17c674tab.z13.web.core.windows.net",
+        "endpoint": "https://myssotab17c674tab.z13.web.core.windows.net",
+        "storageResourceId": "/subscriptions/3a2181ef-c7ec-46d5-bd07-f073d7c10645/resourceGroups/MySSOTab-dev-rg/providers/Microsoft.Storage/storageAccounts/myssotab17c674tab"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "ddab6089-4e1e-4ed2-a604-f82f202b9767",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "b42b5249-b83c-45eb-bb58-70d78d9b0ccd",
+        "oauth2PermissionScopeId": "3bea2445-78f6-4f82-99a0-35f52be53e79",
+        "tenantId": "1da33906-b4a0-47ab-b6aa-6a161752c830",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/1da33906-b4a0-47ab-b6aa-6a161752c830",
+        "applicationIdUris": "api://myssotab17c674tab.z13.web.core.windows.net/ddab6089-4e1e-4ed2-a604-f82f202b9767",
+        "frontendEndpoint": "https://myssotab17c674tab.z13.web.core.windows.net"
+    },
+    "fx-resource-identity": {
+        "identityName": "myssotab17c674",
+        "identityResourceId": "/subscriptions/3a2181ef-c7ec-46d5-bd07-f073d7c10645/resourceGroups/MySSOTab-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/myssotab17c674",
+        "identityClientId": "5e1f1dec-fe44-43de-958a-8a55c26c8c61"
+    }
+}
